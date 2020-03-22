@@ -1,0 +1,35 @@
+.ui.menu {
+	border-radius: 0px !important;
+}
+
+.table {
+	border-radius: 0px !important;
+}
+
+.hidden {
+	display: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.item:before {
+	width: 0px !important;
+}
+
+.mobile {
+	display: none;
+}
+
+@media only screen and (max-width: 770px) {
+	.column {
+		max-width: 100%;
+	}
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+}
